@@ -1,0 +1,13 @@
+{
+  "type": "service_account",
+  "project_id": "ternurisima",
+  "private_key_id": "57d5912f5e88345481dfce668602f09709c63878",
+  "private_key": "-----BEGIN PRIVATE KEY-----\nMIIEvgIBADANBgkqhkiG9w0BAQEFAASCBKgwggSkAgEAAoIBAQC1BbUGmMfOqAEf\nxY9PXAm0c5SRW5KChrjnpeywsxnch8N5j7O/ASAqYBtTAJPrMQa1IkVqdEWfMXLE\nUwpODxH40phcKfozcmdx+b4+51KMYcJbgxsurvtg79Vgi8ZNX6VenvANKRickvMb\nYCHjYB9UCavPE7kYn/c8nLVzhpbyw5HLWfI0ooo6s5u2+AkWbPNcpQCi0+LVvjLE\n1RkQqNK6pl2F7LrXXkZGm0DtmQ428Bf2i5prI4hryVkPI4BVpRqwkC+EGgsn8AUI\nwaJqj5mWaQL8u1EpEHzbmU3n3RdFpVSG0slwPHAXd4a+baWcy+ccVv5B7yFl1uy4\ntsejX3UTAgMBAAECggEAERE3ryaKeCaI7Jjw2RehZp0bHdVXa+0N0/Fl7ocEYjF+\nsaBl3xVZFgW3rcy5JYyayEsx5kaOJeNAodf+ebucAyy/5riieWVI8YsNb9rZgpjY\n/U3QK0eeNdaG9LJZAQSKj/BGS8dbJbAJMcSPjWOLsJ200DJY2kSCx/kydnDzHHJB\nJsYwDmcLjTd7z2z/IqxM7UjFsEsGOlFMMuaRXRPC2lo4dCs8J3DBX0YOzCR6fZn2\n7cmGUB15p/eqGeyNYzRvIVc7+p/RfuyT+S14xKLCHNYfvcj4dW7rq7LI0zGh/lJS\nJkQmB6XMCOVt3YvbVvb9jTvUhB5QsOWY8F+JeCrNkQKBgQDum2IWWlXS8YSSSeIX\nW/ezxiTErRuAjvI6KCV2ePQjj8xanVJGQuP/j95dQst7Z7z/JdB4/ZAF9smVqGn0\nnfFhEsANsEa3IV/n8t4oL+wHukC0yRFDAGevksb7yQK60yjAdv7h2thzzfIPIMQ6\n3jMSPWGTIsYG0mwkiqx4QsBwOQKBgQDCN748XJhJkRCAVfm06/2yM8i9Lel/wtGA\nX0ELt4T1gw3ul2mDLVGulEqJq+kECTme+mQ0dan5eA05s+yohZ6qFtu4L2VIj10o\nfTK8jhmTHqTSc8T5oki4S37mMc8qxhSmmTMO/hfOxIJ+fo8SYV1GN0XjG2W5iVZn\npcvsCfp3qwKBgQDCY7S1oULqZ/kpdSfNAA/9Vh/+W0lcoxiUaMCclE3R6wUBjcnJ\nlBVLz1nJgPFlyE4hUB1XdLwxH617T4mC0GomO7BbdpEmAPqxbRuwgdo5MXQl1OlL\nPLk8QMf7uPeQXReGNWvRdQmCzvW1fWxgyUWyRm+H/3x1cljILHH2R+ufgQKBgQCr\n4QczhkKjwITY/r15duxTG+8INSyTC8e6kxIOm4BIgo3+2/Ldy2qhVM1OX1xdXQio\ngDHUF1mw1KTnryq+zVnob0hODWvWNkIchggzxJIvmAwHz7q/rfYrW2zXrbcIxLob\n4jLEjuxk6ZYO+lQF0TLp5BqubV2uQDO+kIUSxJXr9wKBgFWuasvrRoEt2O3RJ6//\nt7+D5bdtpmFsfIxVC/tat6/lenxgjF7BxLSkggmlZlyaofWepnMokK/Vb+TfcgMK\nHfYz9HiLdGPQPBPxD0TsBBQkijBHQWoDlwrgyUBW1KHDR/J+GA/das1uvM0ysozl\n6MY1bjvlJYcl7tBoUNtWFrJx\n-----END PRIVATE KEY-----\n",
+  "client_email": "site-trenuricima@ternurisima.iam.gserviceaccount.com",
+  "client_id": "117146158068795228274",
+  "auth_uri": "https://accounts.google.com/o/oauth2/auth",
+  "token_uri": "https://oauth2.googleapis.com/token",
+  "auth_provider_x509_cert_url": "https://www.googleapis.com/oauth2/v1/certs",
+  "client_x509_cert_url": "https://www.googleapis.com/robot/v1/metadata/x509/site-trenuricima%40ternurisima.iam.gserviceaccount.com",
+  "universe_domain": "googleapis.com"
+}

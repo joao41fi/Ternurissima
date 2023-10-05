@@ -1,7 +1,7 @@
 import React from 'react';
 import '../css/produtos.css'
 import '../css/menu.css'
-import '../css/but.css'
+
 const products = [
   {
     id: 1,
