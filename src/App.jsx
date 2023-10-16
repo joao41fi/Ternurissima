@@ -1,6 +1,9 @@
 import React, { useState, useEffect } from 'react';
-import Prodouts from './pages/itnes';
+import Prodouts from './pages/itnes'; 
 import { Inical_page } from './pages/inicial';
+
+
+import  ProductPage from './pages/pasta';
 
 import './css/menu.css';
 import './css/but.css';
@@ -47,7 +50,7 @@ function App() {
       content = (
         <>
           <h2>Conteúdo da Página 1</h2>
-          <Textss />
+          <ProductPage />
         </>
       );
       break;
@@ -71,10 +74,12 @@ function App() {
       <button class="navbar-toggler" type="button" data-bs-toggle="offcanvas" data-bs-target="#offcanvasNavbar" aria-controls="offcanvasNavbar">
       <span class="navbar-toggler-icon"></span>
     </button>
-      <nav>
+      <nav className='menus' >
         {window.innerWidth > 768 ? (
           <ul className="Ule">
+            <div className='butos-pc' >
             {menuItems.map((item, index) => (
+             
               <li
                 className="intem_menu"
                 type="button"
@@ -84,14 +89,19 @@ function App() {
               >
                 {item}
               </li>
+            
             ))}
+            </div>
           </ul>
+          
         ) : (
           <>
-            <button className="hamburger-button" onClick={toggleMenu}>
+          <div className='but-smart'>
+            <button className="hamburger-button"  onClick={toggleMenu}>
               ☰
             </button>
-            
+            </div>  
+            <div>
             {menuOpen && (
               <ul className="Ule">
                 {menuItems.map((item, index) => (
@@ -107,6 +117,7 @@ function App() {
                 ))}
               </ul>
             )}
+            </div>
           </>
         )}
       </nav>

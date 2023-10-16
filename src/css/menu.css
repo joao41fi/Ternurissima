@@ -41,3 +41,25 @@ nav a:hover {
 .text{
     width: 18rem;
 }
+
+.menus {
+    align-items: center;
+    height: 3aw;
+    background-color: #fff;
+    /* margin: 10%; */
+    margin-left: 9%;
+    margin-right: 10%;
+
+    border-radius: 20px;
+  
+    margin-bottom: 5%;
+}
+
+.but-smart {
+    margin-left: 85%;
+}
+
+.butos-pc{
+    margin-left: 30%;
+ 
+}
