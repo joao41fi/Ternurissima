@@ -1,0 +1,25 @@
+name: Node.js CI
+
+on:
+  push:
+    branches:
+      - main  # Substitua "main" pelo nome de sua branch principal
+
+jobs:
+  build:
+    runs-on: ubuntu-latest
+
+    steps:
+    - name: Checkout código
+      uses: actions/checkout@v2
+
+    - name: Configurar Node.js
+      uses: actions/setup-node@v2
+      with:
+        node-version: 14  # Substitua pelo número da versão do Node.js desejada
+
+    - name: Instalar dependências
+      run: npm install
+
+    - name: Executar comandos npm
+      run: npm run seu-comando-aqui
