@@ -1,6 +1,5 @@
 const { GoogleAuth } = require('google-auth-library');
 const { google } = require('googleapis');
-
 /**
  * List all files in Google Drive
  * @return {Promise<Array>} An array of files
@@ -9,7 +8,7 @@ async function listAllFiles() {
   try {
     // Configure authentication
     const auth = new GoogleAuth({
-      keyFile: './ternurisima-57d5912f5e88.json',
+      keyFile: './src/ternurisima-57d5912f5e88.json',
       scopes: 'https://www.googleapis.com/auth/drive',
     });
     const service = google.drive({ version: 'v3', auth });
