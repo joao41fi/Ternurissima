@@ -14,7 +14,11 @@
   },
   "dependencies": {
     "@googleapis/docs": "^2.0.5",
-    "googleapis": "^126.0.1",
+    "@react-oauth/google": "^0.11.1",
+    "axios": "^1.5.1",
+    "gapi-script": "^1.2.0",
+    "google-auth-library": "^9.1.0",
+    "googleapis": "^127.0.0",
     "react": "^18.2.0",
     "react-dom": "^18.2.0"
   },

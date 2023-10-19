@@ -1,3 +1,5 @@
+import React from 'react';
+
 const fs = require('fs');
 
 const {google} = require('googleapis');
@@ -43,6 +45,25 @@ async function carega_arquivo(){
    console.log(err)
   }
 }
-carega_arquivo().then(data=>{
-  console.log(data)
-})
+
+
+
+function Ia_test() {
+  async function handleFileUpload() {
+    try {
+      const fileId = await carega_arquivo();
+      console.log(`Arquivo carregado com sucesso. ID do arquivo: ${fileId}`);
+    } catch (error) {
+      console.error('Ocorreu um erro ao carregar o arquivo:', error);
+    }
+  }
+
+  return (
+    <div >
+      <h1>Upload para o Google Drive</h1>
+      <button onClick={handleFileUpload}>Carregar arquivo</button>
+    </div>
+  );
+}
+
+export default Ia_test;

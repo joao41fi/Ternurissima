@@ -3,6 +3,8 @@ import Prodouts from './pages/itnes';
 import { Inical_page } from './pages/inicial';
 
 
+import Text_php from './explore_scripts/api_3';
+
 import  ProductPage from './pages/pasta';
 
 import './css/menu.css';
@@ -49,13 +51,19 @@ function App() {
     case 'Página 1':
       content = (
         <>
+        
           <h2>Conteúdo da Página 1</h2>
-          <ProductPage />
+
+          <ProductPage  />
         </>
       );
       break;
     case 'Página 2':
-      content = <h2>Conteúdo da Página 2</h2>;
+      content =  <><h2>Conteúdo da Página 2</h2>;
+        
+        <Text_php/> 
+      </>
+
       break;
     case 'Sobre nós':
       content = <h2>Sobre nós</h2>;
