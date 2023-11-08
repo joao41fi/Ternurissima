@@ -3,13 +3,17 @@ import Prodouts from './pages/itnes';
 import { Inical_page } from './pages/inicial';
 
 
-import Text_php from './explore_scripts/api_3';
+import Page_not_nober from './pages/bloks/itens_sem_pagina';
+import Text_img_direita from './pages/bloks/block_text_img';
 
 import  ProductPage from './pages/pasta';
+import Vai from './pages/dados/acede_a_dados';
 
+
+import './css/text_felx.css';
 import './css/menu.css';
 import './css/but.css';
-
+import './css/but_conston.css'
 function App() {
   const [selectedItem, setSelectedItem] = useState(null);
   const [menuOpen, setMenuOpen] = useState(false);
@@ -61,19 +65,23 @@ function App() {
     case 'Página 2':
       content =  <><h2>Conteúdo da Página 2</h2>;
         
-        <Text_php/> 
+        <Page_not_nober/>
       </>
 
       break;
     case 'Sobre nós':
-      content = <h2>Sobre nós</h2>;
+      content = <div>
+        <Text_img_direita/>
+        <Vai/>
+
+      </div>;
       break;
     default:
       content = (
-        <>
+        <div className='pagina-produtos'>
           <h2>Selecione uma Página</h2>
           <Prodouts />
-        </>
+        </div>
       );
   }
 
@@ -87,17 +95,17 @@ function App() {
           <ul className="Ule">
             <div className='butos-pc' >
             {menuItems.map((item, index) => (
-             
-              <li
-                className="intem_menu"
-                type="button"
-                className="btn btn-light"
-                key={index}
-                onClick={() => handleMenuItemClick(item)}
-              >
-                {item}
-              </li>
-            
+             <li
+             type="button"
+             key={index}
+             onClick={() => handleMenuItemClick(item)}>
+             <div className="box-1">
+              <div className="btn btn-one">
+              <span> {item}</span>
+             </div>
+             </div>
+              
+             </li>
             ))}
             </div>
           </ul>

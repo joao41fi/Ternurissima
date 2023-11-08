@@ -1,0 +1,11 @@
+.texte_flex{
+   
+    display: flex; /* Ativa o layout flexível */
+    justify-content: space-around; /* Distribui os elementos igualmente na linha */
+    flex-wrap: wrap; /* Permite que os elementos quebrem para a próxima linha quando não couberem na tela */
+
+    background-color: aliceblue;
+    border-radius: 22px;
+    width: 81vw;
+    margin-left: 9vw;
+}
