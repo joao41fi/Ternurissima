@@ -30,27 +30,27 @@ app.listen(3000, () => {
   //   console.error('Erro ao listar arquivos:', error);
   // });
 
-  const folderId = '1IAW8iDsHOApNlGe95p3Aj84LF-fK3eTs'; // Substitua pelo ID da sua pasta
-listFilesInFolder(folderId)
-  .then((files) => {
-    // Faça algo com os arquivos listados
-  })
-  .catch((error) => {
-    console.error('Erro ao listar os arquivos:', error);
-  });
+//   const folderId = '1IAW8iDsHOApNlGe95p3Aj84LF-fK3eTs'; // Substitua pelo ID da sua pasta
+// listFilesInFolder(folderId)
+//   .then((files) => {
+//     // Faça algo com os arquivos listados
+//   })
+//   .catch((error) => {
+//     console.error('Erro ao listar os arquivos:', error);
+//   });
 
 
 
-  const fileId = '1B_xA6Epc5hgRf_Mg3aiORYZW5HdWNSAl';
-readFileContent(fileId)
-  .then((fileContent) => {
-    if (fileContent !== null) {
-      console.log('Content of the file:', fileContent);
-    }
-  })
-  .catch((err) => {
-    console.error('Error:', err.message);
-  });
+//   const fileId = '1B_xA6Epc5hgRf_Mg3aiORYZW5HdWNSAl';
+// readFileContent(fileId)
+//   .then((fileContent) => {
+//     if (fileContent !== null) {
+//       console.log('Content of the file:', fileContent);
+//     }
+//   })
+//   .catch((err) => {
+//     console.error('Error:', err.message);«
+//   });
 
 
 })

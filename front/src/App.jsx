@@ -78,10 +78,7 @@ function App() {
       break;
     default:
       content = (
-        <div className='pagina-produtos'>
-          <h2>Selecione uma Página</h2>
-          <Prodouts />
-        </div>
+        content = <Inical_page />
       );
   }
 

@@ -50,6 +50,24 @@ router.get('/valores', (req, res) => {
 
 });
 
+router.get('/imges', (req, res) => {
+
+  
+  const folderId = '1oI7JERFLWePIQBan8_5khAuMUHxiya1l'; // Substitua pelo ID da sua pasta
+  listFilesInFolder(folderId)
+     .then((files) => {
+      if (files !== null) {
+        console.log('Content of the file:', files);
+        return res.send( JSON.stringify(files));
+      }
+   })
+   .catch((err) => {
+    console.error('Error:', err.message);
+    return res.send( JSON.stringify( err.message) );
+  });
+  
+
+});
 
 
 

@@ -1,0 +1,10 @@
+bakeend - 
+
+para inicar o bakeend usar: npm run dev 
+para atuliza online é so sobir no git 
+
+
+
+frontend - 
+para inicar o frontend usar: npm run dev 
+para atuliza online é 
